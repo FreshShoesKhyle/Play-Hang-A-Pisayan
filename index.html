@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hang A Pisayan - Intro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="clickScreen" class="full-page bg-image" onclick="showGif()">
+        <h1>CLICK TO ENTER</h1>
+    </div>
+
+    <div id="gifScreen" class="full-page hidden">
+        <img src="https://i.redd.it/zzdhvlontjby.gif" class="full-gif">
+    </div>
+
+    <div id="formScreen" class="full-page hidden">
+        <div class="form-box">
+            <h2>Please Enter your Name:</h2>
+            <input type="text" id="nameInput" placeholder="Your Name...">
+            <br><br>
+            <button onclick="saveAndGo()">Next</button>
+        </div>
+        <img class="sans-gif" src="sans.webp" alt="sans">
+    </div>
+
+    <script src="index.js"></script>
+
+    <audio autoplay loop>
+        <source src="Megalovania.mp3" type="audio/mp3">
+    </audio>
+
+</body>
+
+</html>

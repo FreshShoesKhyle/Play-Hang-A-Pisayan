@@ -15,7 +15,7 @@ body {
 }
 
 .bg-image {
-    background-image: url('introscreen.PNG');
+    background-image: url('introscreen.png');
     background-size: cover;
     background-position: center;
     cursor: pointer;
